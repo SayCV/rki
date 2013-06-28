@@ -27,10 +27,10 @@
 **   if desired. These are the defaults.
 */
 #define RTEMS_NET_HOSTNAME      "rtems_target"
-#define RTEMS_NET_IP_ADDRESS    "192.168.0.8"
+#define RTEMS_NET_IP_ADDRESS    "192.169.0.8"
 #define RTEMS_NET_IP_NETMASK    "255.255.255.0"
-#define RTEMS_NET_GATEWAY       "192.168.0.1"
-#define RTEMS_NET_NAME_SERVER1  "192.168.0.1"
+#define RTEMS_NET_GATEWAY       "192.169.0.1"
+#define RTEMS_NET_NAME_SERVER1  "192.169.0.1"
 
 /*
  * Define RTEMS_SET_ETHERNET_ADDRESS if you want to specify the

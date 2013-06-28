@@ -74,6 +74,7 @@
 
 void rtems_start_network_services(void)
 {
+	int status;
    /*
    ** Start the network daemons
    */

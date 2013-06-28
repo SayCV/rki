@@ -80,9 +80,9 @@ LIBS = -lm
 ##
 ## Optional libs depending on the features needed
 ##
-# LIBS += -lftpd
-# LIBS += -ltelnetd
-# LIBS += -lnfs
+LIBS += -lftpd
+LIBS += -ltelnetd
+LIBS += -lnfs
 
 ##
 ## Extra Cflags for Assembly listings, etc.

@@ -32,17 +32,18 @@
 ** Include the network stack/driver
 */
 #undef RKI_INCLUDE_NETWORK
+#define RKI_INCLUDE_NETWORK_SERVICES
 
 /*
 ** Auto-config the network based on the values in rtems_net_config.h
 ** Otherwise use the netsetup shell command to init the network
 */
-#undef RKI_AUTO_INIT_NETWORK
+#define RKI_AUTO_INIT_NETWORK
 
 /*
 ** start network services. Enable/disable individual services below
 */
-#undef RKI_INCLUDE_NETWORK_SERVICES
+#define RKI_INCLUDE_NETWORK_SERVICES
 
 /*
 ** Include and start the telnetd server
@@ -52,7 +53,7 @@
 /*
 ** Include and start the RTEMS ftp server
 */
-#undef RKI_INCLUDE_FTPSERVER
+#define RKI_INCLUDE_FTPSERVER
 
 /*
 ** Include the NFS client
@@ -84,5 +85,5 @@
 /*
 ** Include the TFTP file system
 */
-#undef RKI_INCLUDE_TFTPFS
+#define RKI_INCLUDE_TFTPFS
 
